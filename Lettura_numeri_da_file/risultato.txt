@@ -1,0 +1,3 @@
+Somma: 2502
+Massimo: 2345
+Minimo: 2

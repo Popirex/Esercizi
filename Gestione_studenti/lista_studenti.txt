@@ -1,0 +1,7 @@
+Nome: Alessandro, Eta': 20, Media voti: 31.00
+Nome: Fabio, Eta': 20, Media voti: 23.80
+Nome: Filippo, Eta': 20, Media voti: 0.00
+Nome: Giorgia, Eta': 20, Media voti: 27.00
+Nome: Patrizia, Eta': 20, Media voti: 28.00
+Nome: Rossella, Eta': 20, Media voti: 26.00
+Nome: Marco, Eta': 34, Media voti: 31.00
