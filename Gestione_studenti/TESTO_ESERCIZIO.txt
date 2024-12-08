@@ -1,0 +1,38 @@
+Esercizio: Gestione degli Studenti
+
+Scrivi un programma in linguaggio C che permetta la gestione di una lista di studenti, ognuno dei quali ha un nome, un cognome, un'età e un voto.
+
+Descrizione:
+
+1. Creazione della struttura Studente: Ogni studente deve essere rappresentato da una struttura che contenga i seguenti campi:
+   - Nome (stringa)
+   - Cognome (stringa)
+   - Età (intero)
+   - Voto (intero)
+
+2. Operazioni sul sistema:
+   - Inserimento di un nuovo studente nella lista.
+   - Visualizzazione di tutti gli studenti presenti nella lista.
+   - Ricerca di uno studente per nome e cognome.
+   - Ordinamento della lista degli studenti in base al voto (dal più alto al più basso).
+   - Salvataggio della lista degli studenti su un file di testo (chiamato "studenti.txt").
+   - Caricamento della lista degli studenti da un file di testo (dallo stesso file "studenti.txt").
+
+3. Gestione dei file:
+   - Quando la lista degli studenti viene salvata, il programma deve sovrascrivere qualsiasi file esistente.
+   - Quando si carica la lista degli studenti, il programma deve leggere i dati dal file e popolare la lista.
+   - Ogni studente nel file deve essere rappresentato da una riga con il formato: "Nome Cognome Età Voto".
+
+4. Gestione degli errori:
+   - Il programma deve gestire correttamente gli errori di apertura dei file e degli input da parte dell'utente.
+   - Se il file di input non esiste, il programma deve dare un messaggio adeguato e continuare con l'esecuzione.
+
+Requisiti:
+
+- Utilizzare le strutture in C per rappresentare gli studenti.
+- Usare dinamicamente un array di strutture per gestire gli studenti (ad esempio, mediante l'uso di `malloc` per allocare memoria per gli studenti).
+- Implementare una funzione per ciascuna delle operazioni sopra descritte: inserimento, visualizzazione, ricerca, ordinamento e gestione dei file.
+- Gestire la memoria in modo corretto, liberando la memoria allocata dinamicamente quando non è più necessaria.
+
+Nota:
+Il programma deve essere modulare, con funzioni separate per ogni operazione, e deve permettere all'utente di interagire tramite un semplice menu a scelta.
