@@ -1,0 +1,31 @@
+Esercizio: Gestione di Numeri tramite File
+
+Scrivi un programma in linguaggio C che legga dei numeri da un file di testo, calcoli la loro somma, il massimo e il minimo, e successivamente scriva i risultati in un altro file di testo.
+
+Descrizione:
+
+1. Lettura dei numeri: Il programma deve leggere una sequenza di numeri interi da un file di testo. I numeri devono essere separati da spazi o da nuove righe. Il file di input deve essere passato come argomento al programma.
+
+2. Calcolo della somma, del massimo e del minimo: Una volta letti i numeri, il programma deve calcolare:
+   - La somma di tutti i numeri.
+   - Il valore massimo tra i numeri.
+   - Il valore minimo tra i numeri.
+
+3. Scrittura dei risultati: Il programma deve scrivere i risultati (somma, massimo e minimo) in un file di output chiamato `risultati.txt`. Il formato del file di output deve essere il seguente:
+   Somma: <somma>
+   Massimo: <massimo>
+   Minimo: <minimo>
+   Dove <somma>, <massimo> e <minimo> sono i valori calcolati.
+
+4. Gestione degli errori: Il programma deve gestire correttamente gli errori di apertura dei file, sia di input che di output, e deve fornire messaggi di errore adeguati se si verificano.
+
+Requisiti:
+
+- Utilizza un array per memorizzare i numeri letti dal file.
+- Il programma deve essere in grado di gestire file di input di dimensioni variabili (non è necessario un numero fisso di numeri).
+- Non è necessario un numero illimitato di numeri, ma il programma deve gestire correttamente il caso in cui il file contenga più numeri rispetto alla capacità dell'array.
+- Il programma deve essere strutturato in modo modulare, con funzioni separate per la lettura del file, il calcolo dei valori, e la scrittura dei risultati.
+- Il file di output `risultati.txt` deve essere sovrascritto ogni volta che il programma viene eseguito, quindi i risultati precedenti devono essere eliminati.
+
+Nota:
+Il programma deve essere in grado di leggere i numeri da un file di input fornito dall'utente tramite argomenti da linea di comando. Il programma deve anche scrivere i risultati in un file di output predefinito.
