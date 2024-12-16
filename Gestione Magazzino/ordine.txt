@@ -1,0 +1,4 @@
+Martello 10
+Trapano 2
+Viti 50
+Chiodi 120
