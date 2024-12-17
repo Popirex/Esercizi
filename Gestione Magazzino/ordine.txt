@@ -1,4 +1,4 @@
 Martello 10
 Trapano 2
-Viti 50
+Viti 300
 Chiodi 120
